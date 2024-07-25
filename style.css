@@ -1,0 +1,298 @@
+body{
+    margin: 0;
+}
+.home{
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+    position: relative;
+}
+
+.nav{
+    display: flex;
+    position: fixed;
+     width: 100%;
+     background-color:#0b1916be;
+     
+}
+h2{
+    width: 25%;
+    color: white;
+    text-align: center;
+    
+    
+}
+h2:hover{
+    color: #5f5e5e;
+    cursor:pointer; 
+}
+.nav-list{
+    width: 75%;    
+}
+ul{
+list-style: none;
+display: flex;
+justify-content: center;
+color: white;
+align-items:center;
+width: 100%;
+font-size: 18px;
+font-weight: 600;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-left: 5%;
+}
+li{
+    margin-left: 30px;
+    
+}
+li:hover{
+    color: #5f5e5e;
+    cursor:pointer;
+}
+.text{
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 70%; 
+    color: white;
+    width: 40%;
+    margin-bottom: 0px;
+   h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:lighter;
+    font-size: 44px;
+    line-height: 70px;
+    
+   }
+   p{
+   padding-bottom: 0%;
+   
+    font-size: 14px;
+   }
+   
+}
+.btn1{
+    background-color:green;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+}
+.btn1:hover{
+    background-color: white;
+    color:green ;
+    cursor: pointer;
+    
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.studio{
+    margin-top: 80px;
+}
+.studio-cont{
+    text-align: center;
+    color: #898484;
+}
+h4.title{
+    word-spacing: 1px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+p.details{
+    font-size: 19px;
+    margin-bottom: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
+.studio-img img{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.us{
+    background-image: url(./images/background.jpg);
+    height: 450px;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 30px;
+}
+.more{
+    margin-top: 90px;
+    text-align: center;
+    
+
+}
+h3.meet{
+    text-transform: capitalize;
+    color: #898484; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+.cont2{
+    display:flex;
+    margin: 70px;
+}
+.more-img1 img{
+    width: 250px;  
+     padding: 14px;
+     border-radius: 20px;
+     
+}
+img:hover{
+    transform: scale(0.9);
+}
+.more-img2 img{
+    width: 250px;
+    padding: 14px;
+    border-radius: 20px;
+}
+.more-img3 img{
+    width: 250px; 
+    padding: 14px;
+    border-radius: 20px;
+}
+.more-img4 img{
+width: 250px;
+padding: 14px;
+border-radius: 20px;
+}
+.txt1{
+    color:#898484 ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+p.a{
+    font-weight: bold;
+    color: black;
+}
+.form1{
+    width: 100%;
+    height:700px;
+    background-image: url(./images/form.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+h2.form2{
+    color:rgb(105, 105, 100);
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 35px;
+    margin: auto;
+    padding: 90px;
+}
+form{
+    width: 80%;
+    height: 600px;
+    margin-left: 260px;
+    margin-top: 55px;
+}
+input{
+    outline: none;
+    border-radius: 5px;
+    width: 350px;
+    padding: 10px;
+    margin: 10px;
+}
+.sub{
+    width: 750px;
+}
+textarea{
+    outline: none;
+    border-radius: 5px;
+    width: 750px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+.btn2{
+    background-color:green;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+   margin-left:320px ;
+}
+.btn2:hover{
+    background-color: white;
+    color:green ;
+    cursor: pointer;
+    transform: scale(0.9);
+}
+footer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-left: 130px;
+    padding: 13px;
+}
+.digital{
+    width: 30%;
+}
+.std{
+    color:rgb(105, 105, 100);
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 30px; 
+}
+.txt1-dg{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    color: #cecbcb;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    
+    color:black;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    color:black;
+  }
+  .fa-linkedin{
+    color:black;
+  }
+  .fa-google{
+    color: black;
+  }
